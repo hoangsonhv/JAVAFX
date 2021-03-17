@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="820.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="820.0" style="-fx-max-width: 200px;">
+         <children>
+            <Text disable="true" fill="#ff0202" layoutX="302.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh Sách Sinh Viên" textAlignment="CENTER">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <TextField fx:id="name" layoutX="572.0" layoutY="80.0" prefHeight="40.0" prefWidth="232.0" />
+            <TextField fx:id="age" layoutX="572.0" layoutY="136.0" prefHeight="40.0" prefWidth="112.0" />
+            <TextField fx:id="mark" layoutX="572.0" layoutY="192.0" prefHeight="40.0" prefWidth="112.0" />
+            <Text fx:id="txtValidate" layoutX="572.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="186.0" />
+            <Button layoutX="572.0" layoutY="292.0" mnemonicParsing="false" onAction="#sort" prefHeight="40.0" prefWidth="79.0" text="Sắp Xếp" textFill="#ff0707" />
+            <Button layoutX="659.0" layoutY="292.0" mnemonicParsing="false" onAction="#input" prefHeight="40.0" prefWidth="79.0" text="Thêm SV" textFill="#fc0101" />
+            <Text layoutX="516.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+            <Text layoutX="522.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
+            <Text layoutX="522.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark" />
+            <TableView fx:id="ds" layoutX="21.0" layoutY="80.0" prefHeight="336.0" prefWidth="472.0">
+               <columns>
+                  <TableColumn fx:id="ten" prefWidth="220.0" text="Name" />
+                  <TableColumn fx:id="tuoi" prefWidth="125.0" text="Age" />
+                  <TableColumn fx:id="diem" prefWidth="125.0" text="Mark" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
