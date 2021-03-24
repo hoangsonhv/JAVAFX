@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manager.student.themmoi.Controller">
+   <children>
+      <TextField fx:id="name" layoutX="199.0" layoutY="69.0" prefHeight="50.0" prefWidth="203.0" promptText="Tên Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="age" layoutX="199.0" layoutY="140.0" prefHeight="50.0" prefWidth="203.0" promptText="Tuổi Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mark" layoutX="199.0" layoutY="216.0" prefHeight="50.0" prefWidth="203.0" promptText="ĐIểm Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="199.0" layoutY="317.0" mnemonicParsing="false" onAction="#add" prefHeight="50.0" prefWidth="100.0" text="Submit" />
+      <Button mnemonicParsing="false" onAction="#trangchu" text="Trang Chủ" />
+      <Text fx:id="txtValidate" layoutX="199.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="203.0" />
+   </children>
+</Pane>

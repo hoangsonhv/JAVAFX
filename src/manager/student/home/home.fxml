@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<Pane fx:controller="manager.student.home.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#danhsach" layoutX="169.0" layoutY="98.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="218.0" text="Danh Sách Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button onAction="#themmoi" layoutX="169.0" layoutY="211.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="218.0" text="Thêm Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

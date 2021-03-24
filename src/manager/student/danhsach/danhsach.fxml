@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="manager.student.danhsach.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbview" layoutY="60.0" prefHeight="340.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="namesv" prefWidth="357.0" text="Tên Sinh Viên" />
+          <TableColumn fx:id="agesv" prefWidth="121.0" text="Tuổi" />
+            <TableColumn fx:id="marksv" prefWidth="118.0" text="ĐIểm" />
+        </columns>
+      </TableView>
+      <Button onAction="#trangchu" mnemonicParsing="false" text="Trang Chủ" />
+      <Text layoutX="218.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh Sách Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
