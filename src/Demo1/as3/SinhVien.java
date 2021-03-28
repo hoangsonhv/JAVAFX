@@ -1,14 +1,24 @@
-package sample;
+package Demo1.as3;
 
-public class Student1 {
-    String name;
-    Integer age;
-    Integer mark;
+public class SinhVien {
+    public Integer id;
+    public String name;
+    public Integer age;
+    public Integer mark;
 
-    public Student1(String name, Integer age, Integer mark) {
+    public SinhVien(Integer id, String name, Integer age, Integer mark) {
+        this.id = id;
         this.name = name;
         this.age = age;
         this.mark = mark;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

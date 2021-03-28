@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Demo1.as3.home.Menu">
+   <children>
+      <Button layoutX="188.0" layoutY="116.0" mnemonicParsing="false" onAction="#danhSachSV" prefHeight="39.0" prefWidth="225.0" text="Danh Sách Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="179.0" mnemonicParsing="false" onAction="#capNhatSV" prefHeight="39.0" prefWidth="225.0" text="Thêm Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="241.0" mnemonicParsing="false" onAction="#suaTTSV" prefHeight="39.0" prefWidth="225.0" text="Sửa Thông Tin Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#eb0404" layoutX="203.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lí Sinh Viên">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="188.0" layoutY="304.0" mnemonicParsing="false" onAction="#xoaSV" prefHeight="39.0" prefWidth="225.0" text="Xóa Thông Tin Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

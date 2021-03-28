@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Demo1.as3.xoasinhvien.Controller">
+   <children>
+      <Button layoutX="2.0" layoutY="1.0" mnemonicParsing="false" onAction="#trove" text="&lt;&lt;" />
+      <Text fill="#e80400" layoutX="244.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Xóa Sinh Viên">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TableView fx:id="danhsach1" layoutX="5.0" layoutY="60.0" prefHeight="267.0" prefWidth="587.0">
+        <columns>
+          <TableColumn fx:id="idSV" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="nameSV" prefWidth="346.0" text="Name" />
+            <TableColumn fx:id="ageSV" prefWidth="86.0" text="Age" />
+            <TableColumn fx:id="markSV" prefWidth="83.0" text="Mark" />
+        </columns>
+      </TableView>
+      <Button layoutX="262.0" layoutY="350.0" mnemonicParsing="false" onAction="#delete" prefHeight="39.0" prefWidth="76.0" text="Delete" />
+      <Text fx:id="txtValidate" layoutX="200.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.6708984375" />
+   </children>
+</Pane>

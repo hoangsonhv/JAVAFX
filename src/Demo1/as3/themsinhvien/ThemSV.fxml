@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Demo1.as3.themsinhvien.Controller">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Whitesmoke;">
+         <children>
+            <Text fill="#0a0aeb" layoutX="184.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Thông Tin Sinh Viên">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="158.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+            <TextField fx:id="txtname" layoutX="205.0" layoutY="80.0" prefHeight="46.0" prefWidth="232.0" />
+            <Text layoutX="158.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
+            <TextField fx:id="txtage" layoutX="205.0" layoutY="142.0" prefHeight="46.0" prefWidth="172.0" />
+            <Text layoutX="154.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark" />
+            <TextField fx:id="txtmark" layoutX="205.0" layoutY="203.0" prefHeight="46.0" prefWidth="172.0" />
+            <Button layoutX="248.0" layoutY="295.0" mnemonicParsing="false" onAction="#add" prefHeight="46.0" prefWidth="86.0" text="Thêm" textFill="RED">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#trove" text="&lt;&lt;" />
+            <Text fx:id="txtValidate" layoutX="206.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="189.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

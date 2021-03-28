@@ -13,7 +13,7 @@
             <Font size="18.0" />
          </font>
       </Button>
-      <Button onAction="#capNhatSV" layoutX="188.0" layoutY="201.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="225.0" text="Cập Nhật Sinh Viên">
+      <Button onAction="#capNhatSV" layoutX="188.0" layoutY="201.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="225.0" text="Thêm Sinh Viên">
          <font>
             <Font size="18.0" />
          </font>

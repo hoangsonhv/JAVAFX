@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Demo1.as3.danhsach.Controller">
+   <children>
+      <TableView fx:id="danhsach" layoutX="1.0" layoutY="67.0" prefHeight="332.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="idSV" prefWidth="82.0" text="ID" />
+          <TableColumn fx:id="nameSV" prefWidth="322.0" text="Name" />
+          <TableColumn fx:id="ageSV" minWidth="0.0" prefWidth="99.0" text="Age" />
+          <TableColumn fx:id="markSV" prefWidth="93.0" text="Mark" />
+
+        </columns>
+      </TableView>
+      <Text fill="#f50101" layoutX="191.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh Sách Sinh Viên" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#trove" text="&lt;&lt;" />
+   </children>
+</AnchorPane>
