@@ -117,12 +117,17 @@ public class Controller implements Initializable{
 
 
     public void edit(){
-        SinhVien s = danhsach1.getSelectionModel().getSelectedItem();
-        txtid.setText(s.getId().toString());
-        txtname.setText(s.getName());
-        txtage.setText(s.getAge().toString());
-        txtmark.setText(s.getMark().toString());
-        editSV = s;
+        try {
+            SinhVien s = danhsach1.getSelectionModel().getSelectedItem();
+            txtid.setText(s.getId().toString());
+            txtname.setText(s.getName());
+            txtage.setText(s.getAge().toString());
+            txtmark.setText(s.getMark().toString());
+            editSV = s;
+        }catch (Exception e){
+            txtValidate.setText("Vui lòng chọn danh mục sửa.!");
+            txtValidate.setDisable(false);
+        }
     }
 
     public void trove() throws Exception {
